@@ -1,0 +1,1 @@
+pictscape* version.1 release.0 (public-beta,build 20100503-f) $Rev: 290 $  Auther:ARIMORI Yousing

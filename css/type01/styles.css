@@ -1,0 +1,238 @@
+﻿
+
+/*ユーザーエージェントのCSSを初期化*/
+*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	font-style:normal;
+}
+
+li{
+	list-style:none;
+}
+
+img{
+	border:0px;
+}
+
+a{
+	text-decoration:none;
+}
+
+/*固有設定*/
+
+/*pictscape* open content default style 01 v.00*/
+/*for Firefox 3, Internet Explorer 7, Opera 9.5, Safari 3, and latest versions.*/
+/*Copyleft, Nov, 2008, angeltale::Sakamata Minamo*/
+
+/*タイトル部分*/
+div.header0 h1{
+	font-size:2em;
+	font-weight:bold;
+	padding:0 6px;
+}
+
+div.header0 p{
+	font-size:0.8em;
+	padding:0 6px;
+	margin-bottom:4px;
+}
+
+div.header0 div.pankz{
+	font-size:0.8em;
+	background:#eeeeee;
+	color:#000000;
+	padding:4px 6px;
+	border-top:1px solid #ff0033;
+	margin-bottom:6px;
+}
+
+div.header0 h2{
+	font-size:1.4em;
+	font-weight:bold;
+	padding:0 6px 0 6px;
+}
+
+/*画像リスト*/
+div.contents0{
+	min-width:820px;/*最小幅指定。これより小さいと横スクロールバー表示*/
+}
+
+div.contents1{/*NEWS1枚絵と画像リストの表示設定*/
+	float:left;
+	margin:0 0 10px 4px;
+	width:78%;
+}
+
+/*並び順設定ボタンの表示設定*/
+ol.select_menu{
+	clear:both;
+	display:none;
+}
+
+ol.select_menu li{
+	display:inline;
+}
+
+ol.select_menu li ol{
+	display:inline;
+}
+
+div.content1 img{/*NEWS1枚絵の表示設定*/
+	background:#FFFAFA;
+	border:1px solid #666666;
+	padding:6px;
+	margin-left:2px;
+}
+
+div.content0 h2{
+	font-size:1em;
+	margin-left:2px;
+	padding-left:10px;
+	color:#eeeeee;
+	background:url(./img/bg1.png) center left no-repeat;
+}
+
+/*画像リストの表示設定*/
+div.content0 ul li{
+	float:left;
+	border:1px solid #000000;
+	margin:2px;
+	text-align:center;
+}
+
+div.content0 ul li span{
+	display:block;
+	width:100px;
+	height:100px;
+	overflow:hidden;
+}
+
+div.content0 ul li p{
+	width:100px;
+	height:2.6em;
+	font-size:0.8em;
+	background:#3333ff;
+	color:#ffffff;
+	overflow:hidden;
+}
+
+div.content0 ul li p a{
+	background:#ffffff;
+	display:block;
+	text-decoration:none;
+}
+
+div.content0 ul li p a:hover{
+	color:#ffffff;
+	background:#000099;
+}
+
+/*カテゴリーメニューの表示設定*/
+div.content2{
+	float:right;
+	right:0;
+	top:0;
+	width:150px;
+	margin:0 6px 6px 0;
+	border:1px solid #666666;
+	font-size:0.8em;
+}
+
+div.content2 ul{
+	background:#FFFAFA;
+}
+
+div.content2 ul li{
+	display:inline;
+}
+
+div.content2 ul li a{
+	display:block;
+	padding:4px;/*メインカテゴリーの空白設定*/
+}
+
+div.content2 ul li a:hover{
+	color:#ffffff;
+	background:#000099;
+}
+
+div.content2 ul li ul li a{
+	padding:4px 20px;/*サブカテゴリーの空白設定*/
+}
+
+/*下部、全体メニューの表示設定*/
+div.menu0{
+	clear:both;
+	font-size:0.8em;
+	background:#eeeeee;
+	color:#000000;
+	padding:4px 6px;
+	border-bottom:1px solid #666666;
+	margin-top:6px;
+	height:2em;
+}
+
+div.menu0 ul{
+	float:left;
+}
+
+div.menu0 ul li{
+	display:inline;
+	margin-right:6px;
+	line-height:2em;
+}
+
+div.menu0 ul li a:hover{
+	text-decoration:underline;
+}
+
+/*ログインボタンの表示設定*/
+div.menu0 a.adm0{
+	float:right;
+	width:80px;
+	right:0;
+	border:1px solid #666666;
+	text-align:center;
+	line-height:2em;
+}
+
+div.menu0 a.adm0:hover{
+	color:#ffffff;
+	background:#000099;
+}
+
+/*最下段、キャプションなどの表示設定*/
+div.footer0{
+	padding:6px;
+	font-size:0.8em;
+}
+
+div.footer0 img{
+	margin:4px 4px 4px 0;
+}
+
+/*文章コンテンツの表示設定*/
+div.content3{
+	padding:0 6px;
+}
+
+div.content3 div{
+	margin:1em 0;
+}
+
+div.content3 h3{
+	font-size:1em;
+	margin:4px 0 2px 0;
+}
+
+div.content3 ul li{
+	list-style:circle;
+	margin-left:20px;
+}
+
+div.content3 address{
+	text-align:right;
+	font-size:0.8em;
+}

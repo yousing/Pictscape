@@ -1,0 +1,21 @@
+<?php
+global $CONFIG;
+global $setting;
+$CONFIG['db_host'] = 'localhost';	//データベースサーバー
+$CONFIG['db_user'] = 'pictscape';	//データベース接続ユーザー
+$CONFIG['db_passwd'] = 'pictscape';	//データベース接続パスワード
+$CONFIG['db_name'] = 'pictscape';	//データベース名
+$setting['setting_img_size'] = 600;	//画像長辺サイズ
+$setting['setting_thum_size'] = 150;	//サムネイル画像長辺サイズ
+$setting['setting_jpg_quality'] = 80;	//JPEG保存時画質
+$setting['setting_app_path'] = '/home/ucn/public_html/pictscape/'; //設置パス
+$setting['setting_upload_path'] = '/home/ucn/public_html/pictscape/upload/'; //画像一括保存パスアップロード先
+$setting['setting_root_url']='http://est.angeltale.net/pictscape/';
+$setting['setting_title']='pictscape';
+$setting['setting_h1_title']='pictscape';
+$setting['setting_caption_title']='ピクトスケープ';
+$setting["to_mail"]='hoge@hoge.com';
+$setting["to_subject"]='hogehoge';
+$setting["from_mail"]='hoge@hoge.com';
+$setting["from_name"]='hoge';
+?>
